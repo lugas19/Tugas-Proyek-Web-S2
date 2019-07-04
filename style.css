@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*KODE CSS - STYLE UNTUK HALAMAN INDEX*/
+
+p{
+	font-size: 15px;
+}
+div{
+	display: inline-block;
+	box-sizing: border-box;
+}
+.clear{ /*Div clear*/
+	clear: both;
+}
+
+
+/* KHUSUS HEADER */
+ 
+	.header{ /* div class header */
+			height: 150px;
+			width: 100%;
+
+			background: linear-gradient(180deg, rgba(255, 110, 0, .5), #BC8F8F);
+		}
+
+/*KHUSUS CLASS MENU-ATAS*/
+
+	.menu-atas{ /* div class menu-atas */
+			height: 50px;
+			width: 100%;
+			background-color: #eee;
+
+			line-height: 50px;
+		}
+	.menu-atas ul li{ /* desain 'li' dari 'ul' dari class menu-atas */
+			display: inline-block;
+		}
+	.menu-atas ul li a{ /* desain 'a' dari 'li' dari 'ul' dari class menu-atas */
+			margin-top: 10px;
+			padding: 15px;
+			text-decoration: none;
+			color: black;
+
+			transtition: 1s;
+		}
+	.menu-atas ul li a:hover{
+			padding: 15px;
+			background-color: salmon;
+
+			text-shadow: 1px 1px 1px white, 1px 1px 1px white; 
+		}
+
+/* AKHIR DESAIN MENU-ATAS */
+
+/* KHUSUS CLASS MENU-KIRI */
+
+	.menu-kiri{ /* div class menu-kiri */
+			height: 100px;
+			width: 300px;
+			background: linear-gradient(rgba(0,0,0,.1), rgba(251, 131, 176,.1));
+
+			line-height: 50px;
+
+			text-align: center;
+			float: left;
+		}
+	.menu-kiri ul li a{ /* desain object 'a' dari 'li' dari 'ul' dari class menu-kiri */
+			text-decoration: none;
+			color: white;
+			font-size: 20px;
+			text-shadow: 2px 2px 2px black;
+		}
+	.one-menu{ /* div class one-menu / link dari kata "Menu" */
+			padding-left: 257px;
+		}
+
+/* AKHIR DESAIN MENU-KIRI */
+
+/* KHUSUS CLASS WARNA */
+
+
+	.warna{ /* div class warna */
+			height: 150px;
+			width: 300px;
+			background: linear-gradient(rgba(0,0,0,.1), rgba(251, 131, 176,.1));
+
+			line-height: 50px;
+
+			text-align: center;
+			float: left;
+			margin-left: -300px;
+			margin-top: 100px;
+		}
+	.kotak-merah{
+			width: 20px;
+			height: 20px;
+			background-color: red;
+			border-radius: 50%;
+		}
+	.kotak-hijau{
+			width: 20px;
+			height: 20px;
+			background-color: green;
+			border-radius: 50%;
+		}
+	.kotak-biru{
+			width: 20px;
+			height: 20px;
+			background-color: blue;
+			border-radius: 50%;
+		}
+
+/* AKHIR DARI DESAIN CLASS WARNA */
+
+/* CONTAINER di dalamnya berisi (konten) dan di dalam konten berisi (form) */
+
+	.container{
+			width: 100%;
+			background-color: lightblue;
+			background-image: url('foto-konten.jpg');
+			background-size: 500px;
+			float: right;
+
+		}
+	.konten{
+			max-height: 100%;
+			width: 1045px;
+			float: right;
+			box-sizing: border-box;
+
+			padding-left: 100px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-right: 100px;
+			line-height: 20px;
+
+			font-family: verdana;
+			color: white;
+
+			background: linear-gradient(45deg, rgba(0,0,0,.6), rgba(251, 131, 176,.6));
+		}
+	.konten:active{
+			filter: blur(10px);
+	}
+
+/* DIV CLASS FOOTER */
+.footer{
+	height: 50px;
+	width: 100%;
+	background-color: lightgreen;
+	text-align: center;
+	line-height: 50px;
+	background: linear-gradient(180deg, #BC8F8F,rgba(255, 110, 0, .5));
+}
+
+/* DIV INI BELUM DITENTUKAN KEGUNAANNYA */		
+.input{
+	padding-left: 20px;
+	float: left;
+}
